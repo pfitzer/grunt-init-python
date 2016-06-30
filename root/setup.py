@@ -9,7 +9,7 @@ setup(
     keywords=[
         {%= keywords %}
     ],
-    author='{%= author_name %},
+    author='{%= author_name %}',
     author_email='{%= author_email %}',
     url='{%= homepage %}',
     download_url='{%= download_url %}',
