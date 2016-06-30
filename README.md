@@ -10,14 +10,14 @@ Boilerplate template for [Python][] projects via [grunt-init][]. Highlights are:
 - Include [Travis CI][] badge
 - Added release script based on `foundry`
 
-This was forked from [twolfson/grunt-init-node][].
+This was forked from [twolfson/grunt-init-python][].
 
 [Python]: http://www.python.org/
 [grunt-init]: http://gruntjs.com/project-scaffolding
 [unlicense-site]: http://unlicense.org/
 [gratipay]: https://www.gratipay.com/
 [Travis CI]: https://travis-ci.org/
-[twolfson/grunt-init-node]: https://github.com/twolfson/grunt-init-node
+[twolfson/grunt-init-python]: https://github.com/twolfson/grunt-init-python
 
 ## Installation
 If you haven't already done so, install [grunt-init][].
@@ -27,7 +27,7 @@ Once grunt-init is installed, place this template in your `~/.grunt-init/` direc
 It's recommended that you use git to clone this template into that directory, as follows:
 
 ```
-git clone git@github.com:twolfson/grunt-init-python.git ~/.grunt-init/python
+git clone git@github.com:pfitzer/grunt-init-python.git ~/.grunt-init/python
 ```
 
 _(Windows users, see [the documentation][grunt-init] for the correct destination directory path)_

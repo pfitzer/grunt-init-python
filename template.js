@@ -6,8 +6,7 @@
  * Licensed under the MIT license.
  */
 
-var fs = require('fs'),
-    gruntInitGit = require('grunt-init/tasks/lib/git');
+var fs = require('fs');
 
 // Basic template description.
 exports.description = 'Create a Python Package, including nose unit tests';
@@ -23,7 +22,6 @@ exports.warnOn = '*';
 
 // The actual init template.
 exports.template = function(grunt, init, done) {
-  var git = gruntInitGit.init(grunt);
 
   init.prompts.download_url = {
     name: 'download_url',
@@ -52,9 +50,8 @@ exports.template = function(grunt, init, done) {
       }
 
       // Grab the default git url and work from that
-      // TODO: Figure out how to lookup default repo
       init.prompts.repository['default'](null, props, function (err, repository) {
-        cb(null, git.githubUrl(repository) || 'none');
+        cb(null, repository || 'none');
       });
     }),
     init.prompt('bugs', function (defaultt, props, cb) {
