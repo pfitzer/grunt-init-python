@@ -1,4 +1,7 @@
 # grunt-init-python changelog
+2.4.1 - fixed errors with unknown required git module
+      - fixed unaccounted author name and email in setup.py
+
 2.4.0 - Added `sudo: false` to `.travis.yml`
 
 2.3.0 - Moved from PNG to SVG for images
