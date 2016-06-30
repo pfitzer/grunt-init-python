@@ -9,8 +9,8 @@ setup(
     keywords=[
         {%= keywords %}
     ],
-    author='Todd Wolfson',
-    author_email='todd@twolfson.com',
+    author='{%= author_name %},
+    author_email='{%= author_email %}',
     url='{%= homepage %}',
     download_url='{%= download_url %}',
     packages=find_packages(),
